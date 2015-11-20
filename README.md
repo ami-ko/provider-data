@@ -7,5 +7,5 @@ python download_urls.py
 ```
 then
 ```
-pythondownload_json.py
+python download_json.py
 ```
