@@ -3,9 +3,9 @@ Scripts to download and clean healthcare provider data
 
 Run 
 ```bash
-download_source_urls.sh
+python download_urls.py
 ```
 then
 ```
-download_json.py
+pythondownload_json.py
 ```
