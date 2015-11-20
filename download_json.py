@@ -38,12 +38,12 @@ for f in os.listdir(root):
 
     for httpurl in urls_json['formulary_urls']:
         os.system('wget ' + httpurl)
-        os.system('mv ' + httpurl.split('/')[-1] + ' ' + os.path.join('data', f, 'formulary_urls') + '/')
+        os.system('mv ' + httpurl.split('/')[-1] + ' "' + os.path.join('data', f, 'formulary_urls') + '"/')
 
     for httpurl in urls_json['plan_urls']:
         os.system('wget ' + httpurl)
-        os.system('mv ' + httpurl.split('/')[-1] + ' ' + os.path.join('data', f, 'plan_urls') + '/')
+        os.system('mv ' + httpurl.split('/')[-1] + ' "' + os.path.join('data', f, 'plan_urls') + '"/')
 
     for httpurl in urls_json['provider_urls']:
         os.system('wget ' + httpurl)
-        os.system('mv ' + httpurl.split('/')[-1] + ' ' + os.path.join('data', f, 'provider_urls') + '/')
+        os.system('mv ' + httpurl.split('/')[-1] + ' "' + os.path.join('data', f, 'provider_urls') + '"/')
