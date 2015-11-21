@@ -30,6 +30,9 @@ else:
 # Create files to store the resulting JSON.
 for u in complete:
 
+    # There are some providers with the same name but in different
+    # states with different urls. These providers will have a number
+    # appended after their folder.
     append = 0
 
     # Create the file
